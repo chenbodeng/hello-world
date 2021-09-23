@@ -8,6 +8,7 @@
 #define LED_PATH        "/sys/class/leds/"
 #define LED_STATUS        "brightness"
 #define TRIGGER_NONE    "none"
+
 int main(int argc, char** argv) {
     char path[50] = {0}, data[2] = {0};
     int fd = 0, ret = 0, flag = 0;
